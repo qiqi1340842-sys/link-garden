@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="链接花园：收好每一份灵感与成果。行业周报、方案文档、活动页面与运营资料导航。">
+<title>链接花园 · Link Garden</title>
+<style>
+:root{--paper:#f8f9f4;--ink:#253c32;--muted:#728078;--green:#52745d;--line:#e1e7dd}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.7 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif}button,input{font:inherit}a{color:inherit}header,main,footer{width:min(1100px,calc(100% - 48px));margin:auto}header{display:flex;justify-content:space-between;align-items:center;padding:28px 0;border-bottom:1px solid var(--line)}.brand{font-weight:700;text-decoration:none;letter-spacing:.04em}.brand span{background:#e4ecdf;border-radius:12px;padding:7px 10px;margin-right:10px}.small{font-size:12px;letter-spacing:.16em;color:var(--muted)}.hero{padding:68px 0 38px;position:relative}.eyebrow{font-size:12px;letter-spacing:.2em;color:var(--green)}h1{font-size:clamp(34px,5vw,58px);line-height:1.25;letter-spacing:-.04em;margin:18px 0}h1 em{font-style:normal;color:var(--green)}.intro{color:var(--muted);max-width:600px}.hero-mark{position:absolute;right:30px;top:58px;font-size:90px;opacity:.15;transform:rotate(-15deg)}.toolbar{display:flex;gap:20px;justify-content:space-between;align-items:center;flex-wrap:wrap;margin:24px 0 32px}.filters{display:flex;flex-wrap:wrap;gap:8px}button{cursor:pointer;border:1px solid var(--line);border-radius:100px;padding:8px 17px;background:transparent;color:var(--muted)}button[aria-pressed=true]{background:var(--ink);color:white;border-color:var(--ink)}button:hover{border-color:var(--green)}input{width:260px;max-width:100%;border:1px solid var(--line);background:#fff;border-radius:100px;padding:10px 18px;color:var(--ink)}input:focus,button:focus-visible,a:focus-visible{outline:3px solid #a8be9d;outline-offset:3px}.section-heading{display:flex;justify-content:space-between;align-items:center;margin:0 0 18px}h2{font-size:18px;margin:0}.count{font-size:13px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.card{background:#fff;border:1px solid var(--line);border-radius:20px;padding:26px;min-height:235px;display:flex;flex-direction:column;transition:transform .2s,box-shadow .2s}.card:hover{transform:translateY(-3px);box-shadow:0 12px 30px #253c3209}.card-top{display:flex;justify-content:space-between;align-items:center}.icon{background:#eff3e9;border-radius:12px;font-size:22px;width:46px;height:46px;display:grid;place-items:center}.badge{color:#899185;font-size:11px;background:#f3f4ef;padding:3px 8px;border-radius:5px}.card h3{font-size:18px;margin:20px 0 8px}.card p{color:var(--muted);font-size:14px;margin:0 0 20px}.card-bottom{margin-top:auto;display:flex;align-items:center;justify-content:space-between;font-size:12px;color:var(--green)}.card a{text-decoration:none;font-weight:600}.card a:hover{text-decoration:underline}.placeholder{color:#8a938d}.note{display:flex;gap:18px;padding:24px 28px;border:1px dashed #ccd8c4;border-radius:18px;margin:35px 0 60px;background:#eff3e880}.note p{margin:4px 0 0;color:var(--muted);font-size:14px}.note strong{font-size:15px}.empty{grid-column:1/-1;text-align:center;padding:55px 20px;color:var(--muted);border:1px dashed var(--line);border-radius:18px}footer{padding:24px 0 32px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;font-size:12px;color:var(--muted)}footer a{text-decoration:none}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}@media(max-width:850px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-mark{display:none}}@media(max-width:560px){header,main,footer{width:calc(100% - 32px)}header{padding:21px 0}.small{font-size:10px}.hero{padding:44px 0 18px}.grid{grid-template-columns:1fr}.toolbar{gap:16px}input{width:100%}.search{width:100%}.filters{gap:6px}button{font-size:13px;padding:7px 13px}.card{min-height:220px}.note{padding:20px}.intro{font-size:14px}}
+</style>
+</head>
+<body>
+<header><a class="brand" href="./"><span aria-hidden="true">✳</span>链接花园</a><span class="small">LINK GARDEN</span></header>
+<main>
+<section class="hero"><div class="eyebrow">A LITTLE SPACE FOR GOOD WORK</div><h1>零散的链接，<br>在这里<em>慢慢生长。</em></h1><p class="intro">收好每一份灵感与成果。把周报、方案、活动和日常资料，整理成随时找得到的工作花园。</p><span class="hero-mark" aria-hidden="true">✳</span></section>
+<div class="toolbar"><nav class="filters" aria-label="按类别筛选" id="filters"></nav><div class="search"><label for="search" class="sr-only">搜索标题、说明或分类</label><input id="search" type="search" placeholder="搜索花园里的内容…" autocomplete="off"></div></div>
+<div class="section-heading"><h2 id="heading">全部收藏</h2><span class="count" id="count" role="status" aria-live="polite"></span></div>
+<section class="grid" id="cards" aria-label="链接列表"></section>
+<aside class="note"><span aria-hidden="true">🌱</span><div><strong>花园已备好，等第一份收藏入驻。</strong><p>当前卡片均为示例占位，尚未添加真实链接。后续可持续收录标题、简短说明、分类和网页地址。</p></div></aside>
+</main>
+<footer><span>链接花园 · 让好内容有处安放</span><a href="https://github.com/qiqi1340842-sys/link-garden/blob/main/使用说明.md" target="_blank" rel="noopener noreferrer">如何添加链接 ↗</a></footer>
+<script src="./links.js"></script>
+<script>
+const categories = ["全部", ...new Set(["行业周报","方案文档","活动页面","运营资料",...window.gardenLinks.map(item=>item.category)])];
+const icons={"行业周报":"▤","方案文档":"◇","活动页面":"◉","运营资料":"▦"};
+let selected="全部";
+const filters=document.getElementById("filters"), cards=document.getElementById("cards"), search=document.getElementById("search");
+categories.forEach(category=>{const button=document.createElement("button");button.type="button";button.textContent=category;button.setAttribute("aria-pressed",String(category===selected));button.addEventListener("click",()=>{selected=category;Array.from(filters.children).forEach(b=>b.setAttribute("aria-pressed",String(b.textContent===selected)));render()});filters.append(button)});
+function render(){
+const query=search.value.trim().toLocaleLowerCase();
+const items=window.gardenLinks.filter(item=>(selected==="全部"||item.category===selected)&&[item.title,item.description,item.category].join(" ").toLocaleLowerCase().includes(query));
+cards.replaceChildren();
+document.getElementById("heading").textContent=selected==="全部"?"全部收藏":selected;
+const real=items.filter(item=>!item.placeholder&&safeURL(item.url)).length;
+document.getElementById("count").textContent=real+" 个链接 · "+(items.length-real)+" 个占位示例";
+items.forEach(item=>{
+const card=document.createElement("article");card.className="card";
+const top=document.createElement("div");top.className="card-top";
+const icon=document.createElement("span");icon.className="icon";icon.textContent=icons[item.category]||"✳";icon.setAttribute("aria-hidden","true");top.append(icon);
+const valid=!item.placeholder&&safeURL(item.url);
+if(!valid){const badge=document.createElement("span");badge.className="badge";badge.textContent="占位示例";top.append(badge)}
+const title=document.createElement("h3");title.textContent=item.title;
+const description=document.createElement("p");description.textContent=item.description;
+const bottom=document.createElement("div");bottom.className="card-bottom";
+const category=document.createElement("span");category.textContent=item.category;bottom.append(category);
+if(valid){const link=document.createElement("a");link.href=item.url;link.target="_blank";link.rel="noopener noreferrer";link.textContent="打开链接 ↗";link.setAttribute("aria-label","打开："+item.title+"（新窗口）");bottom.append(link)}
+else{const label=document.createElement("span");label.className="placeholder";label.textContent="待添加链接";bottom.append(label)}
+card.append(top,title,description,bottom);cards.append(card);
+});
+if(!items.length){const empty=document.createElement("div");empty.className="empty";empty.textContent="还没有找到相关内容，试试其他关键词或分类。";cards.append(empty)}
+}
+function safeURL(value){try{return ["https:","http:"].includes(new URL(value).protocol)}catch{return false}}
+search.addEventListener("input",render);render();
+</script>
+</body></html>
