@@ -16,9 +16,11 @@ window.gardenLinks = [
     "description": "门店视频创作能力培养项目说明，包含协作分工、每周流程、作业审核与数据复盘安排。",
     "category": "内容与账号",
     "status": "项目说明",
-    "url": "https://statuesque-youtiao-2fd397.netlify.app/",
+    "url": "https://qiqi1340842-sys.github.io/xingang-seed/",
     "entryType": "web",
-    "placeholder": false
+    "placeholder": false,
+    "repository": "https://github.com/qiqi1340842-sys/xingang-seed",
+    "repo": "xingang-seed"
   },
   {
     "title": "陈三毛内容工作台",
