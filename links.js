@@ -12,6 +12,15 @@ window.gardenLinks = [
     "placeholder": false
   },
   {
+    "title": "新港集团｜视频创作种子项目说明",
+    "description": "门店视频创作能力培养项目说明，包含协作分工、每周流程、作业审核与数据复盘安排。",
+    "category": "内容与账号",
+    "status": "项目说明",
+    "url": "https://statuesque-youtiao-2fd397.netlify.app/",
+    "entryType": "web",
+    "placeholder": false
+  },
+  {
     "title": "陈三毛内容工作台",
     "description": "之前为领导制作的内容工作台，集中查看热点、选题与内容素材。",
     "category": "内容与账号",
