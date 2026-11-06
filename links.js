@@ -153,13 +153,5 @@ window.gardenLinks = [
     "repository": "https://github.com/qiqi1340842-sys/jimeng-ai-report",
     "entryType": "repository",
     "placeholder": false
-  },
-  {
-    "title": "资料合集｜文档归档入口",
-    "description": "集中收纳后续整理的工作文档、方案、SOP 与复盘资料；整理完成后会在这里逐项补充。",
-    "category": "资料合集",
-    "status": "待补充文档",
-    "entryType": "collection",
-    "placeholder": true
   }
 ];
