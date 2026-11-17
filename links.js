@@ -12,6 +12,17 @@ window.gardenLinks = [
     "placeholder": false
   },
   {
+    "title": "写给一起跨入 2.0 时代的我们",
+    "description": "小漆写给运营主管的一封信，聊聊如何让新媒体内容更贴近客户与门店业务。",
+    "category": "内容与账号",
+    "status": "电子信",
+    "repo": "q-s-share",
+    "url": "https://qiqi1340842-sys.github.io/q-s-share/",
+    "repository": "https://github.com/qiqi1340842-sys/q-s-share",
+    "entryType": "web",
+    "placeholder": false
+  },
+  {
     "title": "新港集团｜视频创作种子项目说明",
     "description": "门店视频创作能力培养项目说明，包含协作分工、每周流程、作业审核与数据复盘安排。",
     "category": "内容与账号",
